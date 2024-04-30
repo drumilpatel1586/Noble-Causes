@@ -1,0 +1,80 @@
+
+.food_donate_req_content{
+    position: absolute;
+    margin-left: 280px;
+    height: auto;
+    min-height: 100%;
+    width: auto;
+    min-width: 77%;
+    padding:  20px 20px 20px 20px;
+    border-radius: 30px;
+    background: #ededed;
+    box-shadow: 20px 20px 60px #c9c9c9,
+        -20px -20px 60px #ffffff;
+}
+ 
+.food_donate_req_content_title h1 {
+    color: var(--highlight-color);
+}
+
+.food_donate_req_content_title {
+    margin-left: 50px;
+    width: auto;
+    min-height: 100px;
+    height: 40px;
+    padding-right: 20px;
+
+}
+
+.navigation {
+    left: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+li.navigation-item a {
+    color: var(--text-color);
+    text-decoration: none;
+    border-radius: 10px;
+    align-items: center;
+}
+
+li.navigation-item a:hover {
+    color: var(--highlight-color);
+}
+
+li.navigation-icon .dropdown {
+    color: var(--text-color);
+    font-weight: 1000;
+    font-size: 20px;
+        
+}
+
+.v_Buttons{
+    display: flex;
+    flex-direction: row;
+}
+.v_Buttons a{
+    text-align: center;
+    color: var(--text-color);   
+    text-decoration: none;
+    display: block;
+    width: 20%;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.title h3{
+    color: #000000c2; 
+    border-radius: 30px;
+    width: 96%;
+    background: var(--highlight-color);
+    text-align: center;
+}
+
+.table{
+    text-align: center;
+}

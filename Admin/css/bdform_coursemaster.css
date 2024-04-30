@@ -1,0 +1,95 @@
+
+.bdform_coursemaster_content{
+    position: absolute;
+    margin-left: 280px;
+    height: auto;
+    min-height: 100%;
+    width: auto;
+    min-width: 77%;
+    padding:  20px 20px 20px 20px;
+    border-radius: 30px;
+    background: #ededed;
+    box-shadow: 20px 20px 60px #c9c9c9,
+        -20px -20px 60px #ffffff;
+}
+ 
+.bdform_coursemaster_title {
+    color: var(--highlight-color);
+}
+
+.bdform_coursemaster_content_title {
+    margin-left: 50px;
+    width: auto;
+    min-height: 100px;
+    height: 40px;
+    padding-right: 20px;
+
+}
+
+.navigation {
+    left: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+li.navigation-item a {
+    color: var(--text-color);
+    text-decoration: none;
+    border-radius: 10px;
+    align-items: center;
+}
+
+li.navigation-item a:hover {
+    color: var(--highlight-color);
+}
+
+li.navigation-icon .dropdown {
+    color: var(--text-color);
+    font-weight: 1000;
+    font-size: 20px;
+        
+}
+
+.title h3{
+    color: #000000c2; 
+    border-radius: 30px;
+    width: 96%;
+    background: var(--highlight-color);
+    text-align: center;
+}
+
+table th{
+    text-align: center;
+}
+table td{
+    text-align: center;
+}
+
+.boxs{
+    
+    display: flex;
+    flex-direction: row;
+}
+.select-box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.select-box2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;   
+}
+
+.buttons button{
+    margin-left: 5%;
+    margin-top: 5%;
+    background: var(--highlight-color);
+}

@@ -1,0 +1,127 @@
+.firstdiv {
+  background-image: url("aboutnew1.jpg");
+  height: 50px;
+}
+
+
+.mission {
+  color: darkslateblue;
+  font-weight: 800;
+  font-size: 35px;
+}
+
+.threeBox {
+  background-color: #dfd9d9;
+}
+
+.threeBox2 {
+  background-color: #bdaeae;
+  color: #ffffff;
+}
+
+.threeBox:hover {
+  background-color: #bdaeae;
+  color: #fff;
+}
+
+.threeBox:hover>.iconHover {
+  color: #897b7b;
+}
+
+.threeBox:hover>.roundbox {
+  background: #dfd9d9;
+}
+
+
+.iconHover-2 {
+  color: #897b7b;
+  height: auto;
+  width: 50px;
+  font-size: 50px;
+}
+
+.iconHover {
+  color: rgb(255, 255, 255);
+  height: 80px;
+  width: 80px;
+  font-size: 50px;
+}
+
+
+.roundbox {
+  margin-bottom: 50px;
+  width: 90px;
+  height: 90px;
+  background: #bdaeae;
+  /* line-height: 90px; */
+  text-align: center;
+  border-radius: 50%;
+  display: inline-block;
+  /* font-size: 40px; */
+  color: #fff;
+}
+
+.roundbox2 {
+  margin-bottom: 50px;
+  width: 90px;
+  height: 90px;
+  background: #dfd9d9;
+  line-height: 90px;
+  text-align: center;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 40px;
+  color: #fff;
+}
+
+.iconHover:hover {
+  color: rgb(255, 255, 255);
+  /* Color to change to on hover */
+}
+
+
+/* old CSS */
+.img-fluid {
+  margin-top: 12px;
+  max-width: 100%;
+  height: auto;
+}
+
+.button {
+  font-size: 15px;
+  text-decoration: none;
+  background-color: #3e8da8;
+  color: #fff;
+  border: 0px solid rgb(250, 250, 250);
+  border-radius: 7px;
+}
+
+.button:hover {
+  border: 0px solid rgb(255, 255, 255);
+  background-color: #62b1cb;
+}
+
+.card {
+  background-color: #e2e2e2;
+}
+
+.aboutUS {
+  font-weight: 600;
+  font-size: xx-large;
+}
+
+.aboutUsImg {
+  /* background-image: url('home9.jpg'); */
+  /* position: relative; */
+  display: flex;
+  /* background-size: cover; */
+  background-position: center;
+  height: 350px;
+  width: 380px;
+  /* width: 100%; */
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 70px; */
+  align-items: center;
+  /* color: rgb(255, 255, 255); */
+}
