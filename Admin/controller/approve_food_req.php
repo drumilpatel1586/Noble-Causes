@@ -75,7 +75,7 @@ if (isset($_POST["approve"])) {
             $sql = "UPDATE `donate_food` SET `status` = 'pendding:v' WHERE `donate_food`.`food_id` = $food_id";
             $result = mysqli_query($conn, $sql);
 
-            header("location: ../include/food_donate_req");
+            header("location: ../include/volunteer_required_area");
 
         } else {
 

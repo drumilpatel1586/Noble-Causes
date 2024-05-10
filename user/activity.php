@@ -241,6 +241,9 @@
                                                     if ($result243->num_rows > 0) {
                                                         echo '    <td class="delivered_place" style="display: none"  >' . $row['delivered_place'] . '</td>';
                                                         echo '    <td><button type="button" class="btn btn-info statusBtn" data-bs-toggle="modal" data-bs-target="#foodModal21"> Status</button></td>';
+                                                    }else{
+                                                        echo '    <td class="delivered_place" style="display: none"  >' . $row['delivered_place'] . '</td>';
+                                                        echo '    <td><button type="button" class="btn btn-info statusBtn" data-bs-toggle="modal" data-bs-target="#foodModal21"> Status</button></td>';
                                                     }
                                                 }
                                             }

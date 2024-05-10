@@ -158,7 +158,7 @@ if (isset($_SESSION['v_loggedin']) && $_SESSION['v_loggedin'] == true) {
                 </div><!-- /.container-fluid -->
             </div>
             <!-- /.content-header -->
-        
+
             <!-- Main content -->
             <section class="content">
                 <div class="container-fluid">
@@ -212,8 +212,6 @@ if (isset($_SESSION['v_loggedin']) && $_SESSION['v_loggedin'] == true) {
                                             } else {
                                                 echo "0";
                                             }
-
-
                                             $conn->close();
                                             ?>
                                         </b>
@@ -295,9 +293,6 @@ if (isset($_SESSION['v_loggedin']) && $_SESSION['v_loggedin'] == true) {
 
                     </div>
                 </div>
-
-
-
 
                 <!-- /.content -->
         </div>

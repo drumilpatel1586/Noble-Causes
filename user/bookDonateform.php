@@ -115,7 +115,7 @@
                 }
             }
         } else {
-            echo "<script>alert('The date is valid but is in the past');
+            echo "<script>alert('You have inserted past date, please enter valide date');
             document.location.href = 'bookdonation';
             </script>";
         }
