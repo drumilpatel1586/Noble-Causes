@@ -98,6 +98,7 @@ if (isset($_POST['pickedupbtn'])) {
         $validity = $row6['validity'];
         $status = $row6['status'];
         $time = $row6['time'];
+        $newTime = date('Y-m-d H:i:s', strtotime($time . ' +1 day'));
         $specifications = $row6['specifications'];
         $pickup_street = $row6['pickup_street'];
         $pickup_city = $row6['pickup_city'];
